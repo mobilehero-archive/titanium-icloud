@@ -1,0 +1,9 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+
+copyright: Copyright (c) 2010-Present by Axway Appcelerator
+
+
+# these should not be edited

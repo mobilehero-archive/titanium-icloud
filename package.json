@@ -1,0 +1,70 @@
+{
+	"name": "@titanium/icloud",
+	"version": "0.0.1",
+	"description": "Native module that allows you to use the Apple iCloud framework with Axway Titanium native mobile apps.",
+	"main": "index.js",
+	"scripts": {
+		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"postinstall": "tiapp-install-module",
+		"postuninstall": "tiapp-uninstall-module",
+		"test": "npm install --ignore-scripts && npm run list-files"
+	},
+	"author": {
+		"name": "Brenton House",
+		"email": "brenton.house@gmail.com",
+		"url": "https://brenton.house"
+	},
+	"maintainers": [
+		{
+			"name": "Brenton House",
+			"email": "brenton.house@gmail.com",
+			"url": "https://brenton.house"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "github:brentonhouse/titanium-icloud"
+	},
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/brentonhouse/titanium-icloud/issues"
+	},
+	"homepage": "https://github.com/brentonhouse/titanium-icloud#readme",
+	"keywords": [
+		"titanium",
+		"mobile",
+		"alloy",
+		"turbo",
+		"axway",
+		"appcelerator",
+		"ios",
+		"android",
+		"iphone",
+		"ipad",
+		"icloud",
+		"titanium-native-module",
+		"brenton-house"
+	],
+	"titanium": {
+		"type": "native-module",
+		"platform": {
+			"ios": {
+				"moduleid": "ti.icloud",
+				"name": "icloud",
+				"version": "2.0.0",
+				"apiversion": 2,
+				"architectures": [
+					"armv7",
+					"arm64",
+					"i386",
+					"x86_64"
+				],
+				"minsdk": "5.5.1.GA",
+				"guid": "08f54473-ee58-40da-bc00-154cfdc1ac2c"
+			}
+		}
+	},
+	"dependencies": {
+		"@titanium/tiapp-xml": ">=0.9.4"
+	}
+}
