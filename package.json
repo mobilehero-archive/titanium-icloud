@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/icloud",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Native module that allows you to use the Apple iCloud framework with Axway Titanium native mobile apps.",
 	"main": "index.js",
 	"scripts": {
@@ -9,11 +9,7 @@
 		"postuninstall": "tiapp-uninstall-module",
 		"test": "npm install --ignore-scripts && npm run list-files"
 	},
-	"author": {
-		"name": "Brenton House",
-		"email": "brenton.house@gmail.com",
-		"url": "https://brenton.house"
-	},
+	"author": "Axway",
 	"maintainers": [
 		{
 			"name": "Brenton House",

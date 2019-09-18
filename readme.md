@@ -34,7 +34,6 @@
 	* [needsInitialSync](#needsinitialsync)
 	* [quotaViolated](#quotaviolated)
 	* [accountChange](#accountchange)
-* [Usage](#usage)
 * [Author](#author)
 * [Module History](#module-history)
 * [📚Learn More](#learn-more)
@@ -69,7 +68,7 @@ If you have met the above requirements and you are still receiving errors, try r
 
 ## ✨Features
 
-* [x] Includes Titanium native iOS module: `ti.icloud 1.1.0`
+* [x] Includes Titanium native iOS module: `ti.icloud 2.0.0`
 
 
 ## Example
@@ -79,7 +78,6 @@ This module was designed to follow a similar scheme like Ti.Facebook and Ti.Goog
 ```js
 const icloud = require('@titanium/icloud');
 ```
-
 
 
 
@@ -190,14 +188,12 @@ Receives a dictionary with the following keys:
 
 * keys (`[String]`): Affected store keys.
 
-## Usage
-See `example/app.js`.
 
 ## Author
 Matthew Apperson, Hans Knöchel
 
 ## Module History
-View the [change log](./documentation/changelog.md) for this module.
+View the [change log](./changelog.md) for this module.
 
 
 ## 📚Learn More
@@ -207,7 +203,7 @@ View the [change log](./documentation/changelog.md) for this module.
 
 ## 📣 Feedback
 
-Have an idea or a comment?  [Join in the conversation here](https://github.com/brentonhouse/ti.icloud/issues)! 
+Have an idea or a comment?  [Join in the conversation here](https://github.com/brentonhouse/titanium-icloud/issues)! 
 
 ## ©️ Legal
 
