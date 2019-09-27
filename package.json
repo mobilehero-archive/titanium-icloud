@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/icloud",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Native module that allows you to use the Apple iCloud framework with Axway Titanium native mobile apps.",
 	"main": "index.js",
 	"scripts": {
