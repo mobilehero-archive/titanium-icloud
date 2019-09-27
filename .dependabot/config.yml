@@ -12,7 +12,7 @@ update_configs:
       - "dependabot"	
     allowed_updates:	
       - match:	
-          dependency_name: "direct"	
+          dependency_type: "direct"	
     version_requirement_updates: "increase_versions"	
     ignored_updates:
       - match:
