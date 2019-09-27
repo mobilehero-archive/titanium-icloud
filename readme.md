@@ -9,6 +9,7 @@
 # @titanium/icloud
 
 [![@titanium/icloud](https://img.shields.io/npm/v/@titanium/icloud.png)](https://www.npmjs.com/package/@titanium/icloud)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/titanium-icloud)](https://dependabot.com)
 
 
 > Native module that allows you to use the Apple iCloud framework with Axway Titanium native mobile apps.
