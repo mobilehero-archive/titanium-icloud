@@ -3,6 +3,8 @@
 .eslintrc
 .eslintrc.yml
 
+.dependabot
+
 ios/example/*
 
 
