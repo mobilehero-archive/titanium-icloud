@@ -5,7 +5,7 @@
 </a>
 <a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
 	<p align="center">
-		<img src="https://cdn.secure-api.org/images/RIP-Axway-Amplify-Titanium.png" width="80%" />
+		<img src="https://cdn.secure-api.org/images/RIP-Axway-Amplify-Titanium.png" alt="RIP Axway Amplify Titanium (2010 - 2022)" width="80%" />
 	</p>
 </a>
 <a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
@@ -23,6 +23,8 @@
 <hr>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
+
 
 
 # @titanium/icloud
