@@ -1,14 +1,15 @@
 {
 	"name": "@titanium/icloud",
-	"version": "0.0.5",
-	"description": "Native module that allows you to use the Apple iCloud framework with Axway Titanium native mobile apps.",
+	"version": "1.0.1",
+	"description": "Axway Amplify module to use the Apple iCloud framework with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
 		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"postinstall": "tiapp-install-module",
 		"postuninstall": "tiapp-uninstall-module",
 		"test": "npm install --ignore-scripts && npm run list-files",
-		"prepublishOnly": "git pull && bump"
+		"prepublishOnly": "git pull && npm test && bump insane",
+		"prepublishOnly2": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"author": "Axway",
 	"maintainers": [
@@ -26,7 +27,7 @@
 	"bugs": {
 		"url": "https://github.com/brentonhouse/titanium-icloud/issues"
 	},
-	"homepage": "https://github.com/brentonhouse/titanium-icloud#readme",
+	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"keywords": [
 		"titanium",
 		"mobile",
@@ -40,6 +41,15 @@
 		"ipad",
 		"icloud",
 		"titanium-native-module",
+		"plugin",
+		"amplify",
+		"api-builder",
+		"appcelerator-titanium",
+		"titanium-sdk",
+		"titanium-mobile",
+		"titanium-module",
+		"axway-sdk",
+		"axway-amplify",
 		"brenton-house"
 	],
 	"titanium": {
@@ -62,6 +72,6 @@
 		}
 	},
 	"dependencies": {
-		"@titanium/tiapp-xml": ">=0.9.4"
+		"@titanium/tiapp-xml": ">=1.0.7"
 	}
 }
