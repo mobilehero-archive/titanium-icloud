@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/icloud",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Axway Amplify module to use the Apple iCloud framework with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
@@ -8,8 +8,8 @@
 		"postinstall": "tiapp-install-module",
 		"postuninstall": "tiapp-uninstall-module",
 		"test": "npm install --ignore-scripts && npm run list-files",
-		"prepublishOnly": "git pull && npm test && bump insane",
-		"prepublishOnly2": "git pull && npm test && npm audit fix && bump insane"
+		"prepublishOnly2": "git pull && npm test && bump insane",
+		"prepublishOnly": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"author": "Axway",
 	"maintainers": [
@@ -72,6 +72,6 @@
 		}
 	},
 	"dependencies": {
-		"@titanium/tiapp-xml": ">=1.0.7"
+		"@titanium/tiapp-xml": ">=1.0.10"
 	}
 }
