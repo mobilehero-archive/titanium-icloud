@@ -1,15 +1,17 @@
 {
 	"name": "@titanium/icloud",
-	"version": "1.0.2",
-	"description": "Axway Amplify module to use the Apple iCloud framework with Appcelerator Titanium SDK",
+	"version": "1.0.3",
+	"description": "⭐  Axway Amplify module to use the Apple iCloud framework with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
-		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"postinstall": "tiapp-install-module",
 		"postuninstall": "tiapp-uninstall-module",
-		"test": "npm install --ignore-scripts && npm run list-files",
-		"prepublishOnly2": "git pull && npm test && bump insane",
-		"prepublishOnly": "git pull && npm test && npm audit fix && bump insane"
+		"lint": "eslint . --fix",
+		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"prep": "npm install --ignore-scripts",
+		"test": "npm run prep",
+		"prepublishOnly": "git pull && npm test && bump insane",
+		"prepublishOnly2": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"author": "Axway",
 	"maintainers": [
@@ -21,11 +23,11 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "github:brentonhouse/titanium-icloud"
+		"url": "github:mobilehero-archive/titanium-icloud"
 	},
 	"license": "Apache-2.0",
 	"bugs": {
-		"url": "https://github.com/brentonhouse/titanium-icloud/issues"
+		"url": "https://github.com/mobilehero-archive/titanium-icloud/issues"
 	},
 	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"keywords": [
@@ -41,6 +43,7 @@
 		"ipad",
 		"icloud",
 		"titanium-native-module",
+		"sdk",
 		"plugin",
 		"amplify",
 		"api-builder",
@@ -72,6 +75,32 @@
 		}
 	},
 	"dependencies": {
-		"@titanium/tiapp-xml": ">=1.0.10"
+		"@geek/cache": "^1.0.2",
+		"@geek/config": "^0.2.4",
+		"@geek/dotenv": "^0.0.9",
+		"@geek/eslint-config": "^1.0.3",
+		"@geek/jsonc": "^1.0.4",
+		"@geek/jwt": "^1.0.1",
+		"@geek/logger": "^1.0.18",
+		"@geek/retry": "^1.0.0",
+		"@geek/spawn": "^0.0.3",
+		"@geek/spinner": "^1.0.0",
+		"@geek/tld": "^2.0.1-1",
+		"@titanium/bluebird": "^3.7.8",
+		"@titanium/errors": "^1.0.5",
+		"@titanium/essentials": "^1.0.36",
+		"@titanium/events": "^1.0.18",
+		"@titanium/eventsource": "^1.0.3",
+		"@titanium/jwt": "^1.0.8",
+		"@titanium/module-copier": "^1.0.13",
+		"@titanium/please": "^1.0.16",
+		"@titanium/polyfill": "^1.0.17",
+		"@titanium/querystring": "^1.0.2",
+		"@titanium/tiapp-xml": "^1.0.11",
+		"@titanium/titanium": "^5.4.5",
+		"@titanium/turbo": "^2.2.22"
+	},
+	"devDependencies": {
+		"@titanium/eslint-config": "^1.0.8"
 	}
 }
