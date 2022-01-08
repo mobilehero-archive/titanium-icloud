@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/icloud",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "⭐  Axway Amplify module to use the Apple iCloud framework with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
