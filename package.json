@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/icloud",
-	"version": "1.0.24",
+	"version": "1.0.25",
 	"description": "⭐  Axway Amplify module to use the Apple iCloud framework with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
@@ -87,21 +87,21 @@
 		"@geek/spinner": "^1.0.2",
 		"@geek/tld": "^2.0.1-1",
 		"@titanium/appcelerator": "^6.0.25",
-		"@titanium/bluebird": "^3.7.29",
-		"@titanium/errors": "^1.0.25",
-		"@titanium/essentials": "^1.0.59",
-		"@titanium/events": "^1.0.37",
+		"@titanium/bluebird": "^3.7.30",
+		"@titanium/errors": "^1.0.26",
+		"@titanium/essentials": "^1.0.60",
+		"@titanium/events": "^1.0.38",
 		"@titanium/eventsource": "^1.0.27",
-		"@titanium/jwt": "^1.0.29",
-		"@titanium/module-copier": "^1.0.33",
+		"@titanium/jwt": "^1.0.30",
+		"@titanium/module-copier": "^1.0.35",
 		"@titanium/please": "^1.0.35",
 		"@titanium/polyfill": "^1.0.33",
 		"@titanium/querystring": "^1.0.25",
-		"@titanium/tiapp-xml": "^1.0.35",
-		"@titanium/titanium": "^5.4.29",
-		"@titanium/turbo": "^2.2.51"
+		"@titanium/tiapp-xml": "^1.0.36",
+		"@titanium/titanium": "^5.4.30",
+		"@titanium/turbo": "^2.2.52"
 	},
 	"devDependencies": {
-		"@titanium/eslint-config": "^1.0.29"
+		"@titanium/eslint-config": "^1.0.30"
 	}
 }
