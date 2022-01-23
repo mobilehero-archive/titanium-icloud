@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/icloud",
-	"version": "1.0.30",
+	"version": "1.0.31",
 	"description": "⭐  Axway Amplify module to use the Apple iCloud framework with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
@@ -86,10 +86,10 @@
 		"@geek/spawn": "^1.0.2",
 		"@geek/spinner": "^1.0.2",
 		"@geek/tld": "^2.0.1-1",
-		"@titanium/appcelerator": "^6.0.27",
+		"@titanium/appcelerator": "^6.0.28",
 		"@titanium/bluebird": "^3.7.34",
 		"@titanium/errors": "^1.0.29",
-		"@titanium/essentials": "^1.0.64",
+		"@titanium/essentials": "^1.0.65",
 		"@titanium/events": "^1.0.41",
 		"@titanium/eventsource": "^1.0.34",
 		"@titanium/jwt": "^1.0.31",
@@ -97,7 +97,7 @@
 		"@titanium/please": "^1.0.38",
 		"@titanium/polyfill": "^1.0.38",
 		"@titanium/querystring": "^1.0.29",
-		"@titanium/tiapp-xml": "^1.0.39",
+		"@titanium/tiapp-xml": "^1.0.40",
 		"@titanium/titanium": "^5.4.36",
 		"@titanium/turbo": "^2.2.55"
 	},
